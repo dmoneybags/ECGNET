@@ -2,8 +2,6 @@
 # coding: utf-8
 
 # In[ ]:
-ECGFOLDER = 'ECGDataDenoised'
-DIAGNOSTICS = pd.read_excel('Diagnostics.xlsx')
 
 class generationFunctions:
     
