@@ -9,6 +9,9 @@ from tensorflow.errors import InvalidArgumentError
 from tensorflow import keras
 import pandas as pd
 import matplotlib as plt
+from ECGNet import ECGnet
+from genFunc import generationFunctions
+from printFunc import PrintFunctions
 
 print("FINISHED IMPORTS")
 
