@@ -3,7 +3,8 @@
 
 # In[ ]:
 
-
+import tensorflow as tf
+from tensorflow import keras
 class ECGnet(keras.Sequential):
     def __init__(self, _input_shape = [4999, 12, 1], _num_conditions = 11, _kernel_size = (10,10), _dilations = 10, _num_hidden_units = 128):
         print("INITIALIZING ACTOR")
