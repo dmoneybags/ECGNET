@@ -3,6 +3,8 @@
 
 # In[ ]:
 
+ECGFOLDER = 'ECGDataDenoised'
+DIAGNOSTICS = pd.read_excel('Diagnostics.xlsx')
 
 class PrintFunctions:
     def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = " "):
