@@ -10,6 +10,9 @@ import tensorflow as tf
 from tensorflow.errors import InvalidArgumentError
 from tensorflow import keras
 
+ECGFOLDER = 'ECGDataDenoised'
+DIAGNOSTICS = pd.read_excel('Diagnostics.xlsx')
+
 class generationFunctions:
     
     #Generating our Rythmn dictionary which we'll use to create an integer representation for our condition
