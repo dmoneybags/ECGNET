@@ -2,6 +2,13 @@
 # coding: utf-8
 
 # In[ ]:
+import os
+import sys
+import numpy as np
+import random
+import tensorflow as tf
+from tensorflow.errors import InvalidArgumentError
+from tensorflow import keras
 
 class generationFunctions:
     
