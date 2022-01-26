@@ -1,5 +1,6 @@
 # ECGNet by Daniel DeMoney
 ## Based upon the studies from this paper: https://www.nature.com/articles/s41597-020-0386-x
+## Using this database https://figshare.com/collections/ChapmanECG/4560497/2
 ![alt text](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-020-0386-x/MediaObjects/41597_2020_386_Fig1_HTML.png)
 ## Background
 An ECG is a measure of voltage relative to time. The above figure shows what a normal ECG would look like. An irregular heart is classified as a heartbeat which is abnormally fast, abnormally slow, or inconsistent relative to time. A link to the classifications and frequencies of the irregularities measured by the study can be found at https://www.nature.com/articles/s41597-020-0386-x/tables/3.
